@@ -2,8 +2,6 @@
 
 require('config.php');
 
-
-
 if(isset($_SESSION['id'])) {
 
 	if(isset($_GET['categorie'])) {

@@ -23,7 +23,7 @@ if(isset($_GET['user'])) {
 
 } else {
 
-	header('Location: index.php');
+	header('Location: ../index.php');
 
 }
 

@@ -41,7 +41,7 @@ $bdd = new PDO('mysql:host=sql2.freemysqlhosting.net;dbname=sql2262056', 'sql226
 
 <body>
 	<header>
-		<a href="index.php"><img src="../images/LOGO.PNG" class="logo" ></a>
+		<a href="../index.php"><img src="../images/LOGO.PNG" class="logo" ></a>
 		<p class="gilou">La Giloulogie</p>
 
 		<nav>

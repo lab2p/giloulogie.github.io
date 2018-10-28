@@ -35,7 +35,7 @@
 
 	<header>
 
-		<a href="index.php"><img src="../images/LOGO.PNG" class="logo" ></a>
+		<a href="../index.php"><img src="../images/LOGO.PNG" class="logo" ></a>
 		<p class="gilou">La Giloulogie</p>
 
 		<nav>

@@ -215,7 +215,7 @@ if(isset($_SESSION['pseudo'])) {
 
 } else {
 
-	header('Location: index.php');
+	header('Location: ../index.php');
 
 }
 

@@ -5,7 +5,7 @@ require('cookie.php');
 
 if(isset($_SESSION['id'])) {
 
-	header('Location: index.php');
+	header('Location: ../index.php');
 
 }
 
@@ -58,7 +58,7 @@ if(isset($_POST['send'])) {
 									$_SESSION['mail'] = $userinfo['mail'];
 									$_SESSION['avatar'] = $userinfo['avatar'];
 
-									header("Location: index.php");
+									header("Location: ../index.php");
 
 								} else {
 
