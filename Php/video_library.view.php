@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	<title>Vidéothèque</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../Css/video_library.css">
+    <link rel="stylesheet" href="../Css/Header.css">
+    <link rel="stylesheet" href="../Css/Aside.css">
+    <script type="text/javascript" src="../Js/javaS.js"></script>
+
+    <link rel="stylesheet" href="../scrollbar/jquery.mCustomScrollbar.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+	<script>
+
+	    (function($){
+	        $(window).load(function(){
+	            $("body").mCustomScrollbar({
+
+	            	theme:'rounded-dots-dark',
+	            	scrollInertia:1000,
+	            	mouseWheel: {scrollAmount: 150},
+	            	keyboard: {scrollAmount: 15}
+
+	            });
+	        });
+	    })(jQuery);
+
+	</script>
+    
+</head>
+
+<body>
+
+	<header>
+
+		<a href="index.php"><img src="../images/LOGO.PNG" class="logo" ></a>
+		<p class="gilou">La Giloulogie</p>
+
+		<nav>
+
+			<ul>
+
+				<li class="actual">Vidéothèque</li>
+				<li class="item"><a href="forum.php">Forum</a></li>
+				<li class="item"><a href="gallery.php">Galerie</a></li>
+				<li class="item"><a href="biography.php">Biographie</a></li>
+
+			</ul>
+
+		</nav>
+
+	</header>
+
+	<?php include_once('aside.php'); ?>
+
+</body>
+
+</html>

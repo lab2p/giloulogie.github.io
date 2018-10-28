@@ -1,0 +1,23 @@
+
+.item{
+    padding: 18px;
+    font-size: 23px;
+    font-family: 'GeosansLight';
+}
+
+.item a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.actual {
+    padding: 18px;
+    font-size: 23px;
+    color: #2200FE;
+    font-family: 'GeosansLight';
+}

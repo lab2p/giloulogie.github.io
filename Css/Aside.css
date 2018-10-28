@@ -1,0 +1,188 @@
+aside {
+
+    background-color: rgba(255, 153, 0, .6);
+    float: left;
+    margin-left: 2%;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    position: absolute;
+    z-index: 0;
+    margin-top: 10vw;
+
+}
+
+li {
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#asideCenter {
+
+    width: 11vw;
+
+}
+
+.avatar {
+
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 17px #BBB;
+    background-color: white;
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+
+}
+
+#date {
+
+    color : black;
+    font-size: 1.5vw;
+    font-family: 'GeosansLight';
+    margin-bottom: 5%;
+    text-decoration: underline;
+
+}
+
+#calendar {
+
+    width: 10vw;
+
+}
+
+#event {
+
+    color: black;
+    font-family: 'GeosansLight';
+    font-size: 1vw;
+    margin-top: 5%;
+
+}
+
+#anniv {
+
+    width: 5vw;
+
+}
+
+#huit {
+
+    color: black;
+    font-family: 'GeosansLight';
+    font-size: 1vw;
+    margin-top: 4%;
+
+}
+
+.edit {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.15vw;
+    font-family: 'GeosansLight';
+    border: 0.05em solid black;
+    border-radius: 5px;
+    padding: 2%;
+    transition: all 0.2s ease;
+    background-color: rgba(255, 150, 0, .6);
+
+}
+
+.edit:hover {
+
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.edit:active {
+
+    font-size: 1vw;
+
+}
+
+.logout {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.10vw;
+    font-family: 'GeosansLight';
+    border: 0.05em solid black;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: rgba(255, 0, 0, .6);
+    transition: all 0.2s ease;
+
+}
+
+.logout:hover {
+
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.logout:active {
+
+    font-size: 1vw;
+
+}
+
+.cobutton {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.25vw;
+    font-family: 'GeosansLight';
+    border: 0.05em solid black;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: rgba(230, 230, 230, .8);
+    transition: all 0.2s ease;
+
+}
+
+.cobutton:hover {
+
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.cobutton:active {
+
+    font-size: 1.15vw;
+
+}
+
+.regbutton {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.25vw;
+    font-family: 'GeosansLight';
+    border: 0.05em solid black;
+    border-radius: 5px;
+    padding: 2%;
+    transition: all 0.2s ease;
+
+}
+
+.regbutton:hover {
+
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.regbutton:active {
+
+    font-size: 1.15vw;
+
+}

@@ -1,0 +1,270 @@
+table {
+
+	font-family: 'GeosansLight';
+	font-size: 1vw;
+
+}
+
+select,option {
+
+	border: 0.05em solid orange;
+    border-radius: 10px;
+    color: black;
+	font-size: 0.85vw;
+	padding: 0.25%;
+	padding-left: 2%;
+	margin-top: -0.5%;
+   	margin-bottom: 1%;
+   	float: right;
+   	width: 200%;
+   	transition: all 0.5s ease;
+	font-family: 'GeosansLight';
+
+}
+
+.box {
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.lastbox {
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}		
+
+.text {
+
+	width: 60%;
+
+}
+
+.title {
+
+	font-size: 2vw;
+	margin-bottom: 5%;
+	color: black;
+	text-decoration: underline;
+
+}
+
+.contents {
+
+	width: 100%;
+
+}
+
+.submitTopic {
+
+	text-align: center;
+
+}
+
+.textarea {
+
+	border: 1px solid orange;
+    border-radius: 10px;
+    color: black;
+	font-size: 1vw;
+	padding: 1%;
+	padding-left: 2%;
+   	margin-bottom: 1%;
+   	margin-top: -0.5%;
+   	float: right;
+   	width: 200%;
+   	height: 100px;
+   	transition: all 0.5s ease;
+   	background-image: url('../../../images/mailicon.jpg');
+   	background-size: 5%;
+	background-repeat: no-repeat;
+	background-position: -15% 50%;
+	font-family: 'GeosansLight';
+	resize: none;
+	max-height: 300px;
+	min-height: 100px;
+
+}
+
+.textarea:focus {
+
+	background-color: #ffad33;
+	border: 1px solid black;
+	color: black;
+	height: 250px;
+	background-image: url('../../../images/mailicon.png');
+	background-position: 1.5% 50%;
+	padding-left: 15%;
+	
+}
+
+input[type=text] {
+
+	border: 1px solid orange;
+    border-radius: 10px;
+    color: black;
+	font-size: 1vw;
+	padding: 1%;
+	padding-left: 2%;
+   	margin-bottom: 1%;
+   	margin-top: -0.5%;
+   	float: right;
+   	width: 200%;
+   	transition: all 0.5s ease;
+   	background-image: url('../../../images/subjeticon.png');
+   	background-size: 4%;
+	background-repeat: no-repeat;
+	background-position: -15% 50%;
+    
+}
+
+input[type=text]:focus {
+
+	background-color: #ffad33;
+	border: 1px solid black;
+	color: black;
+	background-image: url('../../../images/subjeticon.png');
+	background-position: 1.5% 50%;
+	padding-left: 14%;
+    
+}
+
+input[type=submit] {
+
+	border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+	font-size: 1.10vw;
+	padding: 1%;
+   	margin-bottom: 1%;
+   	transition: all 0.2s ease;
+   	text-align: center;
+
+}
+
+input[type=submit]:hover {
+
+	color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+input[type=submit]:active {
+
+	font-size: 1vw;
+
+}
+
+input {
+
+	margin-left: 1%;
+	font-family: 'GeosansLight';
+
+}
+
+.toggle {
+
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 20px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	transform: translate3d(0, 0, 0);
+	margin-left: 18%;
+
+}
+
+.toggle:before {
+
+	content: "";
+	position: relative;
+	top: 3px;
+	left: 3px;
+	width: 34px;
+	height: 14px;
+	display: block;
+	background: #9A9999;
+	border-radius: 8px;
+	transition: background 0.2s ease;
+
+}
+
+.toggle span {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+	transition: all 0.2s ease;
+
+}
+
+.toggle span:before {
+
+	content: "";
+	position: absolute;
+	display: block;
+	margin: -18px;
+	width: 56px;
+	height: 56px;
+	background: rgba(255, 150, 0, 0.5);
+	border-radius: 50%;
+	transform: scale(0);
+	opacity: 1;
+	pointer-events: none;
+
+}
+
+#cbx:checked + .toggle:before {
+
+	background: rgba(255, 200, 0, 1);
+
+}
+
+#cbx:checked + .toggle span {
+
+	background: orange;
+	transform: translateX(20px);
+	transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+	box-shadow: 0 3px 8px rgba(255, 150, 0, 0.2);
+
+}
+
+#cbx:checked + .toggle span:before {
+
+	transform: scale(1);
+	opacity: 0;
+	transition: all 0.4s ease;
+
+}
+
+#rememberText {
+
+	font-family: 'GeosansLight';
+	font-size: 1vw;
+	margin-top: 4.5%;
+	margin-left: 27%;
+	width: 100%;
+	text-align: center;
+
+}
+
+#error {
+
+	font-family: 'GeosansLight';
+	font-size: 20px;
+	font-weight: bold;
+
+}

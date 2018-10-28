@@ -1,0 +1,107 @@
+a {
+
+    text-decoration: none;
+
+}
+
+.forum {
+
+    text-align: center;
+    width: 90%;
+    font-family: 'GeosansLight';
+
+}
+
+.headerForum {
+
+    background-color: orange;
+
+}
+
+.bodyForum {
+
+    background-color: #f9f9f9;
+
+}
+
+.main {
+
+    width: 70%;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    font-size: 1.10vw;
+
+}
+
+.subinfo {
+
+    width: 15%;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.10vw;
+
+}
+
+.sec {
+
+    width: 70%;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.c {
+
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size: 1.25vw;
+
+}
+
+.cRedirect {
+
+    color: black;
+
+}
+
+.cRedirect:hover {
+
+    color: gray;
+
+}
+
+.sc {
+
+    text-align: left;
+    margin-left: 1%;
+    font-size: 1vw;
+    color: black;
+
+}
+
+.scRedirect {
+
+    color: blue;
+
+}
+
+.scRedirect:hover {
+
+    color: red;
+
+}
+
+.cSubinfo {
+
+    width: 15%;
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.10vw;
+
+}

@@ -1,0 +1,142 @@
+* {
+	margin: 0px;
+}
+
+@font-face {
+
+    font-family: 'header';
+    src: url('../font/SketchbookNasty.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'Fragmentcore';
+    src: url('../font/Fragmentcore.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'king';
+    src: url('../font/king.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'GeosansLight';
+    src: url('../font/GeosansLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+    background-image: url("../images/wallpaper.jpg");
+    background-position: right;
+    background-repeat: repeat-y;
+    overflow: hidden;
+
+}
+
+header {
+
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 0 6px 8px;
+    height: 5vw;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
+    background-color: rgba(255, 100, 0, .8);
+    z-index: 1;
+
+}
+
+header img.logo {
+
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    padding-top: 0%;
+
+}
+
+header p.gilou {
+
+    position: fixed;
+    margin-left: 6%;
+    margin-top: 0.75%;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    font-family: 'header';
+
+}
+
+header nav {
+
+    line-height: 10%;
+    width: 100%;
+    margin-left: -5vw;
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 1.5vw;
+    float: right;
+
+}
+
+header nav ul li.item {
+
+    padding: 0.9vw; 
+    font-size: 1.25vw;
+    font-family: 'GeosansLight';
+
+}
+
+header nav ul li.item {
+
+    padding: 0.9vw; 
+    font-size: 1.25vw;
+    font-family: 'GeosansLight';
+    
+}
+
+header nav ul li.item a {
+
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.1s;
+
+}
+
+header nav ul li.item a:hover {
+
+    text-decoration: none;
+    color: red;
+    transition-duration: 0.1s;
+    
+}
+
+header nav ul li.actual {
+
+    padding: 0.9vw; 
+    font-size: 1.25vw;
+    color: #2200FE;
+    font-family: 'GeosansLight';
+    
+}

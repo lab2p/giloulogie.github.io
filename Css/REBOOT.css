@@ -1,0 +1,53 @@
+@font-face {
+font-family: 'segoeui';
+src: url('../font/segoeui.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+#cuerpo {
+
+	color: orange;
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'segoeui';
+
+}
+
+section {
+
+    margin-left: 20%;
+    margin-right : 5%;
+    padding-top: 9vw;
+    height: 80%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+h1 {
+
+	font-family: 'segoeui' ;
+
+}
+
+h2 {
+
+	font-family: 'segoeui';
+
+}
+
+.images {
+
+    box-shadow: 0 0 10px 5px black;
+
+}
+
+#etonnement {
+
+	margin-right: auto;
+	margin-left: auto;
+    width: 40vw;
+    display: block;
+
+}
